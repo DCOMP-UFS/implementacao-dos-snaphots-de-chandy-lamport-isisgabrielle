@@ -1,1 +1,13 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=22883712&assignment_repo_type=AssignmentRepo)
+Implementação da integração do modelo produtor-consumidor com os relogios vetoriais feita por Júlia Valverde, Isis Gabrielle e Samuel Guimarães.
+O arquivo que deve ser compilado e rodado é o etapa4.c
+Comandos para rodar: 
+Caso ainda não tenha o compilador e as bibliotecas do MPI instaladas no seu ambiente (Ubuntu/Debian, WSL ou Codespaces), execute o comando abaixo no terminal:
+
+```bash
+sudo apt update && sudo apt install -y openmpi-bin libopenmpi-dev
+
+Compilar:
+mpicc -o snapshot etapa4.c -lpthread
+
+Executar:
+mpirun --oversubscribe -np 3 ./snapshot
