@@ -1,4 +1,4 @@
-Implementação da integração do modelo produtor-consumidor com os relogios vetoriais feita por Júlia Valverde, Isis Gabrielle e Samuel Guimarães.
+Implementação dos Snapshots de Chandy/Lamport feita por Júlia Valverde, Isis Gabrielle e Samuel Guimarães.
 O arquivo que deve ser compilado e rodado é o etapa4.c
 Comandos para rodar: 
 Caso ainda não tenha o compilador e as bibliotecas do MPI instaladas no seu ambiente (Ubuntu/Debian, WSL ou Codespaces), execute o comando abaixo no terminal:
